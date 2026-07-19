@@ -1,0 +1,357 @@
+/*==========================
+    GLOBAL
+==========================*/
+
+:root{
+
+    --bg:#FAF8F3;
+    --text:#111111;
+    --muted:#666666;
+    --border:#E6E1D8;
+    --hover:#E9E4DA;
+
+}
+
+
+*{
+
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+
+}
+
+
+body{
+
+    background:var(--bg);
+
+    color:var(--text);
+
+    font-family:'Inter',sans-serif;
+
+    font-size:16px;
+
+    line-height:1.7;
+
+    -webkit-font-smoothing:antialiased;
+
+}
+
+
+/*==========================
+TYPOGRAPHY
+==========================*/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+
+    font-family:'Libre Baskerville',serif;
+
+    color:#111;
+
+    font-weight:700;
+
+    letter-spacing:-0.02em;
+
+}
+
+
+a{
+
+    color:inherit;
+
+    text-decoration:none;
+
+}
+
+
+a:hover{
+
+    color:#000;
+
+}
+
+
+/*==========================
+HEADER
+==========================*/
+
+header{
+
+    background:var(--bg);
+
+}
+
+
+.navbar{
+
+      min-height:80px;
+
+}
+
+.logo{
+
+    width:160px;          /* Change as needed */
+    height:auto;
+
+    display:block;
+
+}
+
+.navbar-brand{
+
+     padding:0;
+
+    margin:0;
+
+    display:flex;
+
+    align-items:center;
+
+}
+
+
+.navbar-brand:hover{
+
+    color:#111;
+
+}
+
+
+.nav-link{
+
+    font-size:.95rem;
+
+    font-weight:500;
+
+    color:#333;
+
+    margin-left:18px;
+
+    transition:.25s;
+
+}
+
+
+.nav-link:hover{
+
+    color:#000;
+
+}
+
+
+/*==========================
+BUTTON
+==========================*/
+
+.btn{
+
+    border-radius:0;
+
+    font-weight:600;
+
+}
+
+
+/*==========================
+IMAGES
+==========================*/
+
+img{
+
+    max-width:100%;
+
+    display:block;
+
+}
+
+
+/*==========================
+SELECTION
+==========================*/
+
+::selection{
+
+    background:#111;
+
+    color:#fff;
+
+}
+
+
+
+/*===================================
+ARTICLE SECTION
+===================================*/
+
+.articles{
+
+    background:#FAF8F3;
+
+}
+
+
+/*===================================
+CARD
+===================================*/
+
+.news-card{
+
+    transition:.25s;
+
+}
+
+
+.news-card:hover{
+
+    transform:translateY(-4px);
+
+}
+
+
+/*===================================
+IMAGE
+===================================*/
+
+.news-image{
+
+    width:100%;
+
+    height:340px;
+
+    object-fit:cover;
+
+    border-radius:4px;
+
+}
+
+
+/*===================================
+CONTENT
+===================================*/
+
+.news-content{
+
+    margin-top:22px;
+
+}
+
+
+/*===================================
+CATEGORY
+===================================*/
+
+.category{
+
+    display:inline-block;
+
+    font-family:'Inter',sans-serif;
+
+    font-size:13px;
+
+    font-weight:700;
+
+    letter-spacing:1px;
+
+    text-transform:uppercase;
+
+    color:#8B6E4E;
+
+    margin-bottom:14px;
+
+}
+
+
+/*===================================
+HEADING
+===================================*/
+
+.news-title{
+
+    margin-bottom:18px;
+
+    line-height:1.18;
+
+}
+
+
+.news-title a{
+
+    font-family:'Libre Baskerville',serif;
+
+    font-size:34px;
+
+    font-weight:700;
+
+    color:#111;
+
+    text-decoration:none;
+
+}
+
+
+.news-title a:hover{
+
+    color:#000;
+
+}
+
+
+/*===================================
+SUMMARY
+===================================*/
+
+.news-summary{
+
+    font-family:'Inter',sans-serif;
+
+    font-size:17px;
+
+    line-height:1.8;
+
+    color:#555;
+
+    margin-bottom:22px;
+
+}
+
+
+/*===================================
+META
+===================================*/
+
+.news-meta{
+
+    font-family:'Inter',sans-serif;
+
+    font-size:14px;
+
+    color:#777;
+
+}
+
+
+.dot{
+
+    width:4px;
+
+    height:4px;
+
+    border-radius:50%;
+
+    background:#999;
+
+    display:inline-block;
+
+    margin:0 10px;
+
+    position:relative;
+
+    top:-2px;
+
+}
